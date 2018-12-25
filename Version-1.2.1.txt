@@ -1,0 +1,40 @@
+﻿/*****************************************************/
+/*****************************************************/
+/*                                                   */
+/*               84PHP-http://84php.com              */
+/*                                                   */
+/*****************************************************/
+/*****************************************************/
+
+/*
+  本框架为免费开源、遵循Apache开源协议的框架，但不得删除此文件的版权信息，违者必究。
+  This framework is free and open source, following the framework of Apache open source protocol, but the copyright information of this file is not allowed to be deleted,violators will be prosecuted to the maximum extent possible.
+
+  ©2018 84Tech. All rights reserved.
+  
+  反馈Bug，可进入云平台提交工单，或发送邮件至84php@8-4.cn进行反馈。
+
+  【本框架的入门指南位于源码包内根目录下的Readme.pdf文件。】
+  【本框架的模块说明位于源码包内根目录下的Documents文件夹内，其中BaseModule.pdf为基础模块说明。】
+*/
+
+------------------------------------
+V1.2.1：
+*该版本必须由之前任意版本通过替换全部文件（包括Core/Class/Public目录）的方式升级。
+
+->增加了Sql模块中，对多个条件情况下，设置条件组的功能；
+->修复了Receive模块FromCheck方法中，报错内容出现歧义的问题；
+->修复了潜在的Vcode模块无法正常运行的问题；
+->修复了Page模块，当前页码为0的问题；
+->新增了Header头中对于X-Powered-By的隐藏；
+->新增了出现错误页之后，5秒自动跳转的功能；
+->更新了文档，并修正了文档中的一些错误；
+->新增了开启全局SESSION功能；
+->原Session模块下的Token方法，现已更改至Tool模块下，且Session模块不再被编译；
+->存在未列出的改动项。
+
+
+^_^ 展望未来：
+1.将在下一个版本中，增加对模块配置文件进行更改的模块；
+2.由于开发进度较慢，云服务将延迟开放；
+3.下个版本见！
